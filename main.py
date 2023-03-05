@@ -6,17 +6,17 @@ LOGGER = get_logger(__name__)
 
 def run():
     st.set_page_config(
-        page_title="Hello Liberty!",
+        page_title="Hello there!",
         page_icon="👋",
     )
 
-    st.write("# Welcome to Liberty Global App Analysis tool 👋")
+    st.write("# Welcome to App Analysis tool 👋")
 
-    st.sidebar.success("Select an app version.")
+    st.sidebar.success("Select an app version above.")
 
     st.markdown(
         """
-        Markdown
+        This tool provides basic visualizations for the App ratings scrapped from the Appstore. 
     """
     )
 
